@@ -159,15 +159,9 @@ importers:
 
   packages/utils:
     devDependencies:
-      '@jest/globals':
-        specifier: ^29.7.0
-        version: 29.7.0
       '@repo/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@repo/jest-presets':
-        specifier: workspace:*
-        version: link:../jest-presets
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
@@ -177,9 +171,6 @@ importers:
       eslint:
         specifier: ^8.57.0
         version: 8.57.1
-      jest:
-        specifier: ^29.7.0
-        version: 29.7.0(@types/node@20.17.57)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
