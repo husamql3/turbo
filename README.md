@@ -17,7 +17,7 @@ This Turborepo includes the following:
 ### Apps and Packages
 
 - `web`: a [Next.js](https://nextjs.org/) app
-- `api`: an [Express](https://expressjs.com/) server
+- `server`: an [Express](https://expressjs.com/) server
 - `@repo/utils`: Isomorphic utils (a small wrapper around console.log)
 - `@repo/eslint-config`: ESLint presets
 - `@repo/typescript-config`: tsconfig.json's used throughout the monorepo
