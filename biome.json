@@ -8,27 +8,13 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": [
-      "node_modules/",
-      "build/",
-      ".next/",
-      "dist/",
-      "public/",
-      ".turbo"
-    ]
+    "ignore": ["node_modules/", "build/", ".next/", "dist/", ".turbo"]
   },
   "formatter": {
     "enabled": true,
     "indentStyle": "tab",
     "indentWidth": 2,
-    "ignore": [
-      "node_modules/",
-      "build/",
-      ".next/",
-      "dist/",
-      "public/",
-      ".turbo"
-    ],
+    "ignore": ["node_modules/", "build/", ".next/", "dist/", ".turbo"],
     "lineWidth": 90
   },
   "organizeImports": {
