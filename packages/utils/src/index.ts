@@ -1,3 +1,3 @@
-export const log = (str: any) => {
-  console.log("utils: " + str);
-};
+export const log = (str: string) => {
+	console.log(`utils: ${str}`)
+}
